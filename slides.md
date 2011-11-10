@@ -30,6 +30,8 @@ Feature: blah blah blah
 
 ~~~~
 
+#Muerte a TestLink!!!
+
 #Primero que nada: Cucumber es tan sencillo que podriamos explicarlo de atras hacia adelante
 
 #Cucumber: Bdd que primero habla con el negocio y luego con el código
