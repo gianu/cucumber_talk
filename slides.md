@@ -1,11 +1,10 @@
-
 #Gracias!
 
-#¿Preguntas?
+#Preguntas?
 
-#Toda la aplicación automatizada con cucumber 
+#Toda la aplicacion automatizada con cucumber 
 
-#Es sencillo compartir código de negocio con código técnico
+#Es sencillo compartir codigo de negocio con codigo tecnico
 
 #Forma sencilla de escribir en el lenguaje del negocio
 
@@ -34,4 +33,4 @@ Feature: blah blah blah
 
 #Primero que nada: Cucumber es tan sencillo que podriamos explicarlo de atras hacia adelante
 
-#Cucumber: Bdd que primero habla con el negocio y luego con el código
+#Cucumber: Bdd que primero habla con el negocio y luego con el codigo
