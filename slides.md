@@ -1,32 +1,33 @@
 #
-Esta diapositiva no sirve de nada...
+http://cukes.info/
 
 # Gracias!
 <div style="text-align: right;">
 `@coffeeworks`
 <br />
-`@sgianazza` 
+`@sgianazza`
 </div>
 
 # Preguntas?
  <div class="subtitle">
   (la ausencia de preguntas indica que han entendido todo)
- </div> 
+ </div>
 
-# Toda la aplicacion automatizada con cucumber 
+# Toda la aplicacion automatizada con cucumber
  <div class="subtitle">
   * 100% de cobertura de negocio
   * Facilidad de automatizacion
   * Comprension exhaustiva del negocio
   * Integracion del equipo
   * Requerimientos claros
- </div> 
+ </div>
 
 # Es sencillo compartir codigo de negocio con codigo tecnico
 <div class="subtitle">
   * Comunicacion sencilla y efectiva entre programadores y DP
-  * Facil automatizacion del negocio! 
-</div> 
+  * Facil automatizacion del negocio!
+  * Un repositorio para dominarlos a todos
+</div>
 
 ~~~~ {.cucumber}
  Feature: Ingreso al sistema
@@ -43,17 +44,17 @@ Esta diapositiva no sirve de nada...
 # Forma sencilla de escribir en el lenguaje del negocio
 
 ~~~~ {.cucumber}
-Feature: Descripcion 
+Feature: Descripcion
   As an user
-  I want to feature 
-  in order to business value 
+  I want to feature
+  in order to business value
 
   Scenario: one
     Given ...
     When ...
     Then ...
 
-  Scenario: two 
+  Scenario: two
     Given ...
     And ...
     When ...
@@ -64,8 +65,23 @@ Feature: Descripcion
 ~~~~
 
 # Por que seguimos usando TestLink?
-<div id="test-link" style="text-align: center;">
- ![](images/TestLink02.jpg)
+
+# DRY: Do Not Repeat Yourself
+## La logica de negocio vive en:
+<div class="subtitle">
+* Documentos de requerimientos / emails / wireframes
+* Redmine
+* TestLink
+* Scripts de Selenium
+* Unit Tests
+* El codigo
+</div>
+
+# Gran division entre Development y QA
+<div class="subtitle">
+* Procesos separados
+* Herramientas y lenguajes distintos
+* Se trabajaba en serie
 </div>
 
 # Primero que nada: Cucumber es tan sencillo que podriamos explicarlo de atras hacia adelante
@@ -74,13 +90,14 @@ Feature: Descripcion
 * Solamente se requiere saber un poco de ingles (y ni siquiera esto).
 * Entender las bases del negocio es la unica restriccion
 * El resto se va descubriendo.
-</div> 
+</div>
 
-# Cucumber: 
+# Cucumber:
  <div class="subtitle">
 Bdd que primero habla con el negocio y luego con el codigo
- </div> 
+ </div>
 <br /><br /><br />
 <div style="text-align: right;">
 `@coffeeworks` <br /> `@sgianazza`
 </div>
+
