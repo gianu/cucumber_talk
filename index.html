@@ -7,61 +7,119 @@
      <title>Cucumber</title>
      <link rel="stylesheet" type="text/css" media="screen, projection, print" href="./slidy/slidy.css" />
      <link rel="stylesheet" type="text/css" href="style.css"/>
+     <link href='http://fonts.googleapis.com/css?family=Rammetto+One|Yeseva+One' rel='stylesheet' type='text/css'>
      <script src="./slidy/slidy.js" charset="utf-8" type="text/javascript"></script>
    </head>
    <body>
-    <div class="slided titlepage">
-      <h1 class="title">Cucumber: Automatizando lo inautomatizable</h1>
-      <p class="author">
-        @coffeeworks
-        @sgianazza
-        </p>
-        <p class="date">2011-11-11</p> 
-      </div>
 <div class="slide">
-<p>% Teracode</p>
+<h1 id="section"></h1>
+<p>Esta diapositiva no sirve de nada...</p>
 </div>
 <div class="slide">
 <h1 id="gracias">Gracias!</h1>
+<div style="text-align: right;">
+<code>@coffeeworks</code> <br /> <code>@sgianazza</code>
+</div>
+
 </div>
 <div class="slide">
 <h1 id="preguntas">Preguntas?</h1>
-</div>
-<div class="slide">
-<h1 id="toda-la-aplicaci&#243;n-automatizada-con-cucumber">Toda la aplicación automatizada con cucumber</h1>
-</div>
-<div class="slide">
-<h1 id="es-sencillo-compartir-c&#243;digo-de-negocio-con-c&#243;digo-t&#233;cnico">Es sencillo compartir código de negocio con código técnico</h1>
-</div>
-<div class="slide">
-<h1 id="forma-sencilla-de-escribir-en-el-lenguaje-del-negocio">Forma sencilla de escribir en el lenguaje del negocio</h1>
-<pre class="cucumber"><code>Feature: blah blah blah
-  As a user
-  I want to  blah blah
-  in order to blah blah
 
-  Scenario: blah blah
-    Given
-    When
-    Then
+<div class="subtitle">
+  
+(la ausencia de preguntas indica que han entendido todo)
+</div> 
 
-  Scenario: blah blah
-    Given
-    And
-    When
-    And
-    Then
-    And
+</div>
+<div class="slide">
+<h1 id="toda-la-aplicacion-automatizada-con-cucumber">Toda la aplicacion automatizada con cucumber</h1>
+
+<div class="subtitle">
+  
+<ul>
+<li>100% de cobertura de negocio</li>
+<li>Facilidad de automatizacion</li>
+<li>Comprension exhaustiva del negocio</li>
+<li>Integracion del equipo</li>
+<li>Requerimientos claros
+</div> 
+</li>
+</ul>
+</div>
+<div class="slide">
+<h1 id="es-sencillo-compartir-codigo-de-negocio-con-codigo-tecnico">Es sencillo compartir codigo de negocio con codigo tecnico</h1>
+<div class="subtitle">
+  
+<ul>
+<li>Comunicacion sencilla y efectiva entre programadores y DP</li>
+<li>Facil automatizacion del negocio!
+</div> 
+</li>
+</ul>
+<pre class="cucumber"><code> Feature: Ingreso al sistema
+   Como usuario
+   quiero ingresar al sistema
+   para operar autenticado
+
+   Scenario: Ingreso exitoso
+     Given the user is on the home page
+     When the user enter her credentials
+     Then the admin page should be shown
 </code></pre>
 </div>
 <div class="slide">
-<h1 id="muerte-a-testlink">Muerte a TestLink!!!</h1>
+<h1 id="forma-sencilla-de-escribir-en-el-lenguaje-del-negocio">Forma sencilla de escribir en el lenguaje del negocio</h1>
+<pre class="cucumber"><code>Feature: Descripcion 
+  As an user
+  I want to feature 
+  in order to business value 
+
+  Scenario: one
+    Given ...
+    When ...
+    Then ...
+
+  Scenario: two 
+    Given ...
+    And ...
+    When ...
+    And ...
+    Then ...
+    And ...
+</code></pre>
+</div>
+<div class="slide">
+<h1 id="por-que-seguimos-usando-testlink">Por que seguimos usando TestLink?</h1>
+<div style="text-align: center;">
+ 
+<img src="images/TestLink02.jpg" />
+</div>
+
 </div>
 <div class="slide">
 <h1 id="primero-que-nada-cucumber-es-tan-sencillo-que-podriamos-explicarlo-de-atras-hacia-adelante">Primero que nada: Cucumber es tan sencillo que podriamos explicarlo de atras hacia adelante</h1>
+<div class="subtitle">
+<ul>
+<li>No requiere aprender nuevas tecnologias</li>
+<li>Solamente se requiere saber un poco de ingles (y ni siquiera esto).</li>
+<li>Entender las bases del negocio es la unica restriccion</li>
+<li>El resto se va descubriendo.
+</div> 
+</li>
+</ul>
 </div>
 <div class="slide">
-<h1 id="cucumber-bdd-que-primero-habla-con-el-negocio-y-luego-con-el-c&#243;digo">Cucumber: Bdd que primero habla con el negocio y luego con el código</h1>
+<h1 id="cucumber">Cucumber:</h1>
+
+<div class="subtitle">
+Bdd que primero habla con el negocio y luego con el codigo
+</div> 
+<br /><br /><br />
+<div style="text-align: right;">
+<code>@coffeeworks</code> <br /> <code>@sgianazza</code>
+</div>
+
+
 </div>
 </body>
 </html>

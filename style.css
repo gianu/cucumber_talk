@@ -1,3 +1,14 @@
 body {
   font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+  background-color: rgb(85, 98, 112);
+  color: white;
+}
+
+div.slide h1 {
+  font-family: 'Rammeto One', normal;
+  font-size: 60px;
+}
+
+div.subtitle {
+  font-family: 'Yeseva One', serif;
 }
