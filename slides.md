@@ -64,7 +64,7 @@ Feature: Descripcion
 ~~~~
 
 # Por que seguimos usando TestLink?
-<div style="text-align: center;">
+<div id="test-link" style="text-align: center;">
  ![](images/TestLink02.jpg)
 </div>
 

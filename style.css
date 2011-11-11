@@ -12,3 +12,8 @@ div.slide h1 {
 div.subtitle {
   font-family: 'Yeseva One', serif;
 }
+
+div#test-link img {
+  width: 1024px;
+  height: 800px;
+}
